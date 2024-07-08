@@ -1,0 +1,16 @@
+header {
+    .bg-custom {
+        background-color: $secondaryColor;
+    }
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        color: white;
+    }
+
+    .text-custom {
+        color: white;
+    }
+}

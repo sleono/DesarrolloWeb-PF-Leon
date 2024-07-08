@@ -1,0 +1,43 @@
+.carta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 94px;
+
+    .menu-card {
+        width: 400px;
+        height: 500px;
+        margin-inline: 20px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        background-color: #FAFAFA;
+    }
+
+    .pizza-info {
+        margin-top: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+
+        h3 {
+            margin-top: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            width: 100%;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}
