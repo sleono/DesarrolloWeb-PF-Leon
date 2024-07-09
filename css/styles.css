@@ -117,68 +117,67 @@ body a:hover {
 }
 
 .contact-form {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 94px;
 }
 .contact-form .contacto {
   padding: 30px;
   text-align: center;
-  margin-bottom: 20px;
+  align-items: center;
+  width: auto;
 }
 .contact-form .contacto p {
   line-height: 3;
+  width: auto;
 }
 .contact-form form {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
 .contact-form .form-group {
-  justify-content: space-between;
   margin-bottom: 10px;
 }
 .contact-form .form-group input {
-  font-family: "Montserrat", sans-serif;
-  font-size: 17px;
   color: #3F3F3F;
-  width: 376.5px;
+  width: 773px;
   margin-inline: 10px;
   height: 58px;
   padding: 10px;
-  background-color: #ebebeb;
+  background-color: #eaeaea;
   border: 1px;
   border-radius: 10px;
-  margin-bottom: 10px;
-  align-items: center;
+}
+@media (max-width: 768px) {
+  .contact-form .form-group input {
+    width: auto;
+  }
 }
 .contact-form textarea {
-  font-family: "Montserrat", sans-serif;
-  font-size: 17px;
-  color: #3F3F3F;
   width: 773px;
   height: 180px;
   padding: 10px;
   border: 1px;
-  background-color: #ebebeb;
+  background-color: #eaeaea;
   border-radius: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+  .contact-form textarea {
+    width: auto;
+  }
+}
 .contact-form .form-check {
   margin-top: 10px;
-  display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-.contact-form .form-check input {
-  margin-right: 10px;
+.contact-form .form-check .form-check-label {
+  text-align: center;
+  width: auto;
 }
 .contact-form button {
   display: flex;
-  font-family: "Montserrat", sans-serif;
-  font-size: 17px;
   background-color: #DF0000;
   color: white;
   margin-top: 10px;
@@ -188,7 +187,7 @@ body a:hover {
   border-radius: 10px;
   cursor: pointer;
 }
-.contact-form button button:hover {
+.contact-form button:hover {
   background-color: #c40918;
 }
 

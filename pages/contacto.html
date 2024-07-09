@@ -45,7 +45,7 @@
 
 <!-- MAIN -->
 
-    <main class="contact-form">
+    <!--<main class="contact-form">
         <div class="contacto">
             <h2>Contáctate con nosotros</h2>
             <p><strong>Teléfono:</strong> (01) 7073040 <strong>WhatsApp:</strong> 970 200 141 <strong>Correo:</strong> contacto@pizzaiolo.com.pe</p>
@@ -70,6 +70,46 @@
                 </div>
                 <button type="submit">Enviar</button>
             </form>
+        </div>
+    </main>-->
+
+    <main class="contact-form container mt-5">
+        <div class="contacto text-center mb-4">
+            <h3>Contáctate con nosotros</h3>
+            <p><strong>Teléfono:</strong> (01) 7073040 <strong>WhatsApp:</strong> 970 200 141 <strong>Correo:</strong> contacto@pizzaiolo.com.pe</p>
+            <h3>ó</h3>
+            <p>Escríbenos un mensaje con tus datos y te responderemos lo más pronto posible.</p>
+        </div>
+
+        <div class="formulario row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-12 col-md-6">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombres y apellidos" required>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <input type="text" class="form-control" id="DNI" placeholder="DNI" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12 col-md-6">
+                            <input type="text" class="form-control" id="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <input type="text" class="form-control" id="telefono" placeholder="Teléfono" required>
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <textarea name="textarea" class="form-control" id="textarea" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" name="checkbox" id="checkbox">
+                            <label class="form-check-label" for="checkbox">He leído y acepto las políticas de privacidad</label>
+                        </div>
+                        <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
     </main>
 
