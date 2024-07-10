@@ -7,6 +7,10 @@
   color: #3F3F3F;
 }
 
+header {
+  position: fixed;
+  z-index: 10;
+}
 header .bg-custom {
   background-color: #DF0000;
 }
@@ -15,6 +19,7 @@ header .navbar {
   top: 0;
   width: 100%;
   color: white;
+  font-size: 17px;
 }
 header .text-custom {
   color: white;
@@ -23,7 +28,7 @@ header .text-custom {
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #3F3F3F;
@@ -38,6 +43,76 @@ body a:hover {
   font-weight: 600;
 }
 
+.about-us .aboutus-text {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-delay: 0.4s;
+}
+
+.aboutus-image {
+  width: 300px;
+  height: auto;
+  -webkit-animation: rotate-in-2-tr-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: rotate-in-2-tr-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes rotate-in-2-tr-cw {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-2-tr-cw {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+}
 .carta {
   display: flex;
   flex-wrap: wrap;
@@ -246,6 +321,7 @@ footer .container-fluid h4 {
 }
 footer .container-fluid p {
   color: white;
+  font-size: 17px;
 }
 
 .error404 {
