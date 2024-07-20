@@ -19,7 +19,12 @@ header .navbar {
   top: 0;
   width: 100%;
   color: white;
-  font-size: 17px;
+  font-size: 19px;
+  font-weight: 500;
+}
+header .custom-margin {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 header .text-custom {
   color: white;
@@ -33,7 +38,7 @@ body {
   font-style: normal;
   color: #3F3F3F;
   background-color: white;
-  margin-top: 90px;
+  margin-top: 96px;
 }
 body a {
   text-decoration: none;
